@@ -3,8 +3,8 @@ include "config.php";
 
 $conn = new mysqli("localhost", "root", "", "lab_5b");
 
-$oldMatric = $_POST['oldMatric'];  // original matric
-$matric = $_POST['matric'];        // new matric
+$oldMatric = $_POST['oldMatric'];  
+$matric = $_POST['matric'];        
 $name = $_POST['name'];
 $role = $_POST['role'];
 

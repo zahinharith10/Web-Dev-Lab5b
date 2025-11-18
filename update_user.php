@@ -15,11 +15,11 @@ $row = $result->fetch_assoc();
 <html>
 <head>
     <title>Update User</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
 
-<div class="container"> <!-- Wrap content in container for styling -->
+<div class="container"> 
     <h2>Update User Information</h2>
 
     <form action="update_process.php" method="POST">
